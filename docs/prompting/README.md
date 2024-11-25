@@ -1,5 +1,3 @@
-# Prompting 의 이해 
-
 # Prompting 
 
 - Zero-shot Prompting 
@@ -24,3 +22,4 @@
 # References 
 
 - https://discuss.pytorch.kr/t/openai-gpt-6-six-strategies-for-getting-better-results/2350
+- https://github.com/google-gemini/gemma-cookbook/blob/main/Gemma/Advanced_Prompting_Techniques.ipynb

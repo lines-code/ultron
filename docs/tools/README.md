@@ -1,0 +1,4 @@
+- https://github.com/cline/cline 
+- https://www.cursor.com/
+- https://aider.chat/
+- https://codeium.com/windsurf

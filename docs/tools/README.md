@@ -2,3 +2,5 @@
 - https://www.cursor.com/
 - https://aider.chat/
 - https://codeium.com/windsurf
+- https://github.com/vllm-project/vllm
+- https://github.com/triton-lang/triton

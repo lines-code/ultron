@@ -1,3 +1,9 @@
+# LLM Model 별 Prompting 전략 
+
+- [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Gemini Prompt Engineering](https://ai.google.dev/gemini-api/docs/prompting-strategies?hl=ko)
+- [Cluade Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+
 # Prompting 
 
 - Zero-shot Prompting 

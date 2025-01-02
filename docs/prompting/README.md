@@ -25,6 +25,13 @@
 - Multimodal COT 
 - Graph Prompting 
 
+# Tips 
+
+- LLM에게 친절하지 않아도 된다. 
+  - Politeness 
+    - 공손한 단어들에 더 잘 반영된다.  
+  - Impoliteness  
+
 # References 
 
 - https://discuss.pytorch.kr/t/openai-gpt-6-six-strategies-for-getting-better-results/2350

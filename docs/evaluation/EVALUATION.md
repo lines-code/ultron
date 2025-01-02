@@ -20,16 +20,40 @@
     - BLEU Score 는 의미적 유사도를 반영하지 못한다. 즉, 완전히 정답과 같아야만(Exact Match) 점수를 준다. 예컨대, '노랗다'와 '누렇다'가 유사하다는 걸 전혀 모른다. 실제로 BLEU Score 를 구해보면은 '하늘이 노랗다.'가 정답이면, '하늘이 누렇다.'와 '하늘이 파랗다.' 모두 틀렸다고 본다.
     - words of cluster 를 잘 잡아내지 못한다. 보통 good match 인 경우, '정답으로 구성된 words of cluster' 와 '예측값으로 구성된 words of cluster'이 매우 근접하다고 한다. 근데, BLEU Score 는 그렇지 못하다.
   - Meteor Score는 Precision 뿐만 아니라 Recall을 반영한 지표이다.   
+    - Precision 뿐만 아니라 Recall 도 반영했다
+    - Alignment 를 만들 때, word embedding 이나 dictionary 등을 사용할 수 있어서 의미적 유사도를 반영할 수 있게 되었다.
+    - words of cluster 가 정확히 무엇을 의미하는지 모르겠으나, chunk 라고 무방할 것 같다. chunk 의 개수를 점수에 반영하여, METEOR Score 값이 높으면 words 의 순서도 비슷하도록 설계했다.   
 
 # Benchmarks 
 
+- ARC 
+- HellaSwag 
+- MMLU  
+  - [Multi-task Language Understanding on MMLU](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu) 
+- ThuthfullQA 
 
 # Human Evaluation 
 
+- 사람이 직접 태스크에 맞는 기준을 세워서 LLM 출력을 평가하는 방식 
+- LMSYS Chatbot Arena 를 통한 비교 평가 방식 
+  - https://lmarena.ai/?gad_source=1&gclid=Cj0KCQiA7NO7BhDsARIsADg_hIZ8tCzzrOOC3FfUjxltxzBi9hBppWwd0FmbKnppJzvNqnUXq0FSIRYaAl1jEALw_wcB
+
 # Model-based Evaluation 
+
+- LLM 측정 metric 방식 
+  - G-Eval 
+  - GPTScore
+- LLM 모델이 LLM 성능을 편가 
+  - MT-Bench 
+  - Chatbot Arena 
+  - Prometheus2 
+    - [repo:prometheus-eval](https://github.com/prometheus-eval/prometheus-eval)
 
 # Evaluation Frameowork 
 
+- DeepEval 
+- Phoenix 
+- RAGAs 
 
 # 출처
 

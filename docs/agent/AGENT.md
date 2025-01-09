@@ -89,3 +89,80 @@ Agent : 애플리케이션의 작업 흐름을 선택할 때 LLM을 활용하는
   - 범용성 
   - 조합 가능 
   - 결과/데이터 활용 용이 
+  
+# 세부 구성 요소 
+
+## LLM 
+
+- 프롬프트 
+  - 입력의 다양성 
+  - In Context Learning
+  - 입력에 따른 품질의 다양성
+- LLM 
+- 생성 결과 
+  - 결과의 다양성 
+  - 시스템 통합에 어려운 점이 잇음 
+
+## Structured Output (+ Tool use )
+
+- 특정한 출력 형식에 맞추도록 
+- 제공한 Tool Schema에 맞추도록 
+
+## Tools 
+
+- 외부 정보 추가 ( Grounding )
+- LLM이 잘 못하는 영역 지우너 (계산, 정확성이 요구되는 작업)
+
+## LLM의 추론 능력 
+
+- https://openai.com/index/learning-to-reason-with-llms/ 
+
+## Open Model 실험 By Hugging Face 
+
+Llama 3.2 1b 모델로 Llama 3.2 8b 모델을 넘어설 정도로 성능이 올라갔다고 하는 실험이 존재함. 
+
+- https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute
+
+
+## Memory 기본 구분 
+
+- 기본 구분 
+  - 단기 기억 
+  - 장기 기억 
+- 성격에 따른 구분 
+- 중요도에 따른 구분 
+  - MemGPT 
+    - 프롬프트에 포함된 CoreMemory  
+
+
+## Orchestration 
+
+- Planning 
+- Workflow(Router)
+- Agent(Loop, Cycle)
+- HandOff(Multi Agent)
+  - 한 에이전트에서 다른 에이전트로 흐름을 넘기는 동작 
+
+
+# LLM 에이전트 프레임워크 
+
+## GUI
+
+- Flowise 
+- Langflow 
+- Dify 
+
+## Code
+
+- Langraph
+- Llamaindex Workflows 
+- Crew AI 
+- Pydantic AI
+- AutoGen 
+
+
+
+
+# 출처 
+
+> https://www.youtube.com/watch?v=zb3v45ik9KI 

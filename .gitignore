@@ -22,6 +22,7 @@ ipython_config.py
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
+.idea/
 
 # Created by https://www.toptal.com/developers/gitignore/api/vs,pycharm,python,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=vs,pycharm,python,macos,windows

@@ -36,3 +36,7 @@
 
 - https://discuss.pytorch.kr/t/openai-gpt-6-six-strategies-for-getting-better-results/2350
 - https://github.com/google-gemini/gemma-cookbook/blob/main/Gemma/Advanced_Prompting_Techniques.ipynb
+- https://docsbot.ai/prompts/technical 
+- https://www.promptingguide.ai/
+- https://app.dalpha.so/blog/gpt-prompt-engineering/
+- https://github.com/reworkd/AgentGPT/blob/main/platform/reworkd_platform/web/api/agent/prompts.py

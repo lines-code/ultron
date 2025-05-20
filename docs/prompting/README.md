@@ -40,3 +40,4 @@
 - https://www.promptingguide.ai/
 - https://app.dalpha.so/blog/gpt-prompt-engineering/
 - https://github.com/reworkd/AgentGPT/blob/main/platform/reworkd_platform/web/api/agent/prompts.py
+- [Claude System Prompt](https://docs.anthropic.com/en/release-notes/system-prompts)
